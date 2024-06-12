@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("TTLakes-Bold.woff") format("woff"),
+    url("TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+    background-color: #f8f8f8;
+  }
+  .header {
+    background-color: #ffffff;
+  }
+  .header__menu {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid #d9fff5;
+    align-items: center;
+    padding-top: 18.59px;
+    padding-bottom: 18.59px;
+  }
+  .title {
+    display: flex;
+    margin-top: 24px;
+  }
+  .title__text {
+    font-family: "TT Lakes";
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    padding-left: 16px;
+  }
+  .title__text:hover::before {
+    content: url("/SVG/highlight.svg");
+    position: absolute;
+    left: 0;
+  }
+  .services {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 16px;
+    overflow: scroll;
+  }
+  .services__block {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7e7e82;
+    border-radius: 6px;
+    border: 2px solid #f8f8f8;
+    background-color: #f8f8f8;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16.54px;
+    padding-right: 9.3px;
+    white-space: nowrap;
+  }
+  .services__block:hover {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 2px solid #b8ffec;
+  }
+
+  .info__text {
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1b1c21;
+  }
+  .info__more {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .info__more-read {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+    border-radius: 6px;
+    border: 2px solid #f8f8f8;
+    background-color: #f8f8f8;
+  }
+  .mainimg {
+    margin-top: 16px;
+    margin-bottom: 35px;
+  }
+}
