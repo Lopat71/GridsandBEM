@@ -1,0 +1,120 @@
+@media (min-width: 1120px) {
+  .header {
+    display: none;
+    width: auto;
+    background-color: #ffffff;
+  }
+  .header__menu {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid #d9fff5;
+    align-items: center;
+    padding-top: 18.59px;
+    padding-bottom: 18.59px;
+  }
+
+  .title {
+    display: flex;
+    margin-top: 42px;
+    margin-right: 7px;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title__text {
+    font-family: "TT Lakes";
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    padding-left: 32px;
+  }
+  .title__menu {
+    display: flex;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+  }
+  .title__menu_link {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+    text-decoration: none;
+  }
+  .title__text:hover::before {
+    content: url("/SVG/highlight.svg");
+    position: absolute;
+    left: 0;
+  }
+  .services {
+    margin-top: 8px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services__block {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7e7e82;
+    border-radius: 6px;
+    border: 2px solid #f8f8f8;
+    background-color: #f8f8f8;
+    padding-top: 8.63px;
+    padding-bottom: 7.37px;
+    padding-left: 22.64px;
+    padding-right: 21.7px;
+  }
+  .services__block:hover {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 2px solid #b8ffec;
+  }
+  .info {
+    display: flex;
+    margin-top: 16.22px;
+    margin-right: 28.65px;
+    margin-left: 34px;
+    margin-bottom: 49px;
+  }
+  .info__text {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1b1c21;
+    padding-right: 36px;
+  }
+  .info__text_laptop {
+    margin-top: 10px;
+  }
+  .info__text_desktop {
+    display: block;
+  }
+  .info__more {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .info__more_read {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1b1c21;
+    border-radius: 6px;
+    border: 2px solid #f8f8f8;
+    background-color: #f8f8f8;
+  }
+  .info__mainimg {
+    height: 307px;
+    width: 531.35px;
+  }
+}
