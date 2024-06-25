@@ -11,70 +11,129 @@
     <link rel="stylesheet" href="/fonts/TTLakes/stylesheet.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header__menu">
-        <a href="#">
-          <img src="/SVG/HeaderSVG/burger.svg" />
-        </a>
-        <img class="header__menu_hidden" src="/SVG/HeaderSVG/divider.svg" />
-        <img class="header__menu_img" src="/SVG/HeaderSVG/Group.svg" />
+    <aside class="aside">
+      <section class="aside__header">
+        <img class="aside__img" src="/SVG/aside/Group.svg" alt="" />
+        <button class="aside__search" href="#">
+          <img src="/SVG/aside/search.svg" />
+        </button>
+      </section>
+      <nav class="aside__nav">
+        <button class="aside__btn" href="">Ремонт техники</button>
+        <button class="aside__btn" href="">Услуги и сервисы</button>
+        <button class="aside__btn" href="">Корпоративным клиент</button>
+        <button class="aside__btn" href="">Продавцам техники</button>
+        <button class="aside__btn" href="">Партнерам</button>
+        <button class="aside__btn" href="">Производителям</button>
+        <button class="aside__btn" href="">Наши сервисные центр</button>
+        <button class="aside__btn" href="">Контакты</button>
+      </nav>
+      <section class="aside__info">
+        <div class="aside__link">
+          <button class="aside__search" href="#">
+            <img src="/SVG/aside/call.svg" />
+          </button>
+          <button class="aside__search" href="#">
+            <img src="/SVG/aside/chat.svg" />
+          </button>
+          <button class="aside__search" href="#">
+            <img src="/SVG/aside/profile.svg" />
+          </button>
+        </div>
+        <a class="aside__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+        <a class="aside__tel" href="”tel:+8" 800 890 8900”>8 800 890 8900</a>
+        <div class="aside__lang">
+          <button class="aside__lang-btn">RU</button>
+          <button class="aside__lang-btn">EN</button>
+          <button class="aside__lang-btn">CH</button>
+        </div>
+      </section>
+    </aside>
+    <main>
+      <header class="header">
+        <nav class="header__menu">
+          <button class="header__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <img class="header__btn_hidden" src="/SVG/HeaderSVG/divider.svg" />
+          <img class="header__img" src="/SVG/HeaderSVG/Group.svg" />
 
-        <a class="header__menu_hidden" href="#"
-          ><img src="/SVG/HeaderSVG/call.svg"
-        /></a>
-        <a class="header__menu_hidden" href="#"
-          ><img src="/SVG/HeaderSVG/chat.svg"
-        /></a>
-        <a class="header__menu_hidden" href="#"
-          ><img src="/SVG/HeaderSVG/profile.svg"
-        /></a>
-        <img src="/SVG/HeaderSVG/divider.svg" />
-        <a href="#"><img src="/SVG/HeaderSVG/repair.svg" /> </a>
-        <a href="#"><img src="/SVG/HeaderSVG/checkstatus.svg" /></a>
-      </nav>
-    </header>
-    <section class="title">
-      <h1 class="title__text">Услуги и сервисы</h1>
-      <nav class="title__menu">
-        <a class="title__menu_link" href="#"
-          >Оставить заявку<img src="/SVG/HeaderSVG/repair.svg" />
-        </a>
-        <a class="title__menu_link" href="#"
-          >Статус ремонта<img src="/SVG/HeaderSVG/checkstatus.svg"
-        /></a>
-      </nav>
-    </section>
-    <section class="services">
-      <button class="services__block">Ремонтируемые бренды</button>
-      <button class="services__block">Ремонтируемые устройства</button>
-      <button class="services__block">Цены на услуги</button>
-      <button class="services__block">Адреса сервисных центров</button>
-      <button class="services__block">Специальные цены</button><br />
-      <button class="services__block">Отзывы</button>
-    </section>
-    <section class="info">
-      <div class="info__text">
-        <div class="info__text_mobile">
-          Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-          Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-          гарантией производителя.
-        </div>
-        <div class="info__text_laptop">
-          Мы успешно работаем с 1992 года и заслужили репутацию надежного
-          партнера
-        </div>
-        <div class="info__text_desktop">
-          ,что подтверждает большое количество постоянных клиентов. Мы гордимся
-          тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют
-          нас родным и близким.
-        </div>
-        <div class="info__more">
-          <img src="/SVG/expand.svg" class="info__more_arrow" />
-          <button class="info__more_read">Читать далее</button>
-        </div>
+          <button class="header__btn_hidden" href="#">
+            <img src="/SVG/HeaderSVG/call.svg" />
+          </button>
+          <button class="header__btn_hidden">
+            <img src="/SVG/HeaderSVG/chat.svg" />
+          </button>
+          <button class="header__btn_hidden">
+            <img src="/SVG/HeaderSVG/profile.svg" />
+          </button>
+          <img src="/SVG/HeaderSVG/divider.svg" />
+          <button class="header__btn">
+            <img src="/SVG/HeaderSVG/repair.svg" />
+          </button>
+          <button class="header__btn">
+            <img src="/SVG/HeaderSVG/checkstatus.svg" />
+          </button>
+        </nav>
+      </header>
+      <div class="container">
+        <section class="title">
+          <h1 class="title__text">Услуги и сервисы</h1>
+          <nav class="title__menu">
+            <button class="title__btn" href="#">
+              Оставить заявку<img
+                class="title__repair"
+                src="/SVG/HeaderSVG/repair.svg"
+              />
+            </button>
+
+            <button class="title__btn" href="#">
+              Статус ремонта<img
+                class="title__checkstatus"
+                src="/SVG/HeaderSVG/checkstatus.svg"
+              />
+            </button>
+          </nav>
+        </section>
+        <section class="navbar">
+          <button class="navbar__btn">Ремонтируемые бренды</button>
+          <button class="navbar__btn">Ремонтируемые устройства</button>
+          <button class="navbar__btn">Цены на услуги</button>
+          <button class="navbar__btn">Адреса сервисных центров</button>
+          <button class="navbar__btn">Специальные цены</button><br />
+          <button class="navbar__btn">Отзывы</button>
+        </section>
+        <section class="info">
+          <div class="info__text">
+            <div class="info__mobile">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </div>
+            <div class="info__laptop">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера
+            </div>
+            <div class="info__desktop">
+              ,что подтверждает большое количество постоянных клиентов. Мы
+              гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </div>
+            <div class="info__more">
+              <img src="/SVG/expand.svg" class="info__more_arrow" />
+              <button class="info__btn">Читать далее</button>
+            </div>
+          </div>
+
+          <img
+            class="info__mainimg"
+            src="/SVG/Picture Copy.svg"
+            alt="Picture"
+          />
+        </section>
       </div>
-
-      <img class="info__mainimg" src="/SVG/Picture Copy.svg" alt="Picture" />
-    </section>
+    </main>
   </body>
 </html>
