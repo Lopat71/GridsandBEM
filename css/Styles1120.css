@@ -51,7 +51,7 @@
     border: none;
   }
   .aside__btn:hover::before {
-    content: url("/SVG/aside/highlight\ \(1\).svg");
+    content: url("SVG/aside/highlight\ \(1\).svg");
     position: absolute;
     left: 0;
   }
@@ -156,19 +156,19 @@
     border: none;
   }
   .title__repair:hover {
-    content: url("/SVG/repairBlack.svg");
+    content: url("SVG/repairBlack.svg");
   }
   .title__checkstatus:hover {
-    content: url("/SVG/checkstatusBlack.svg");
+    content: url("SVG/checkstatusBlack.svg");
   }
   .title__text:hover::before {
-    content: url("/SVG/highlight.svg");
+    content: url("SVG/highlight.svg");
     position: absolute;
     left: 0;
   }
   .navbar {
     margin-top: 8px;
-    /* margin-left: 30px; */
+
     display: flex;
     flex-wrap: wrap;
   }
@@ -195,7 +195,7 @@
     display: flex;
     margin-top: 16.22px;
     margin-right: 28.65px;
-    /* margin-left: 34px; */
+
     margin-bottom: 49px;
   }
   .info__text {
