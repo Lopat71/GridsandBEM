@@ -54,7 +54,7 @@
     border: none;
   }
   .aside__btn:hover::before {
-    content: url("SVG/aside/highlight\ \(1\).svg");
+    content: url("/SVG/aside/highlight\ \(1\).svg");
     position: absolute;
     left: 0;
   }
@@ -168,7 +168,7 @@
     letter-spacing: -0.6px;
   }
   .title__text:hover::before {
-    content: url("SVG/highlight.svg");
+    content: url("/SVG/highlight.svg");
     position: absolute;
     left: 0;
   }

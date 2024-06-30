@@ -84,7 +84,8 @@ body {
 }
 
 .title__text:hover::before {
-  content: url("SVG/highlight.svg");
+  border: 2px #1b1c21;
+  content: url("/SVG/highlight.svg");
   position: absolute;
   left: 0;
 }
