@@ -1,6 +1,6 @@
 @font-face {
   font-family: "TT Lakes";
-  src: url("/fonts/TTLakes-Bold.eot"); /* Путь к файлу относительно корня сайта */
+  src: url("/fonts/TTLakes-Bold.eot");
   src: local("TT Lakes Bold"), local("TTLakes-Bold"),
     url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
     url("/fonts/TTLakes-Bold.woff") format("woff"),
@@ -90,7 +90,7 @@ body {
   border: none;
 }
 .aside__btn:hover::before {
-  content: url("/GridsandBEM/SVG/aside/highlight1.svg");
+  content: url("/SVG/aside/highlight1.svg");
   position: absolute;
   left: 0;
 }
