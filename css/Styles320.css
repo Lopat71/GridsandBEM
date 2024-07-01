@@ -90,7 +90,7 @@ body {
   border: none;
 }
 .aside__btn:hover::before {
-  content: url("/SVG/aside/highlight1.svg");
+  content: url("/GridsandBEM/SVG/aside/highlight1.svg");
   position: absolute;
   left: 0;
 }
