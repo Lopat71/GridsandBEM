@@ -1,5 +1,8 @@
 @media (min-width: 768px) {
-  .aside {
+  #main.visible {
+    opacity: 0.33;
+  }
+  #aside {
     width: 320px;
 
     display: flex;
@@ -9,12 +12,14 @@
     left: -320px;
     top: 0;
     transition: left 0.3s ease;
-    box-shadow: 0 10px rgba(14, 24, 80, 0.2);
+    box-shadow: 0 10px rgba(69, 79, 126, 0.02);
 
-    z-index: 1000; /* Размещаем aside выше основного контента */
+    z-index: 1000;
   }
-  .aside.visible {
+
+  #aside.visible {
     left: 0;
+    box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
   }
 
   .aside__header {
@@ -23,8 +28,16 @@
     justify-content: space-between;
     margin-top: 18.73px;
 
-    padding-left: 80.73px;
+    padding-left: 24px;
     padding-right: 24px;
+  }
+  #aside__burger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #ff3e79;
+    border: none;
+    border-radius: 50%;
   }
   .aside__search {
     position: relative;
@@ -118,7 +131,7 @@
     padding-top: 18.59px;
     padding-bottom: 18.59px;
   }
-  .header__btn {
+  #header__btn {
     position: relative;
     width: 40px;
     height: 40px;
@@ -126,7 +139,7 @@
     border: none;
     border-radius: 50%;
   }
-  .header__btn span {
+  #header__btn span {
     position: absolute;
     width: 18px;
     height: 2px;
@@ -134,13 +147,13 @@
     left: 11px;
     border-radius: 2px;
   }
-  .header__btn span:nth-child(1) {
+  #header__btn span:nth-child(1) {
     transform: translateY(-6px);
   }
-  .header__btn span:nth-child(2) {
+  #header__btn span:nth-child(2) {
     width: 10px;
   }
-  .header__btn span:nth-child(3) {
+  #header__btn span:nth-child(3) {
     transform: translateY(6px);
     width: 14px;
   }

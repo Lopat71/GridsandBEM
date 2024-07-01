@@ -2,7 +2,7 @@
   body {
     display: flex;
   }
-  .aside {
+  #aside {
     width: 320px;
 
     display: flex;
@@ -12,7 +12,12 @@
     left: 0;
     box-shadow: none;
   }
-
+  #aside__burger {
+    display: none;
+  }
+  .aside__img {
+    padding-right: 0px;
+  }
   .aside__header {
     display: flex;
     align-items: center;
@@ -155,7 +160,7 @@
     background-color: #f8f8f8;
     border: none;
   }
-  
+
   .title__repair:hover {
     content: url("/SVG/repairBlack.svg");
   }

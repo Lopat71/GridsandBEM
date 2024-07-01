@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="css/Styles320.css" />
     <link rel="stylesheet" href="css/Styles768.css" />
     <link rel="stylesheet" href="css/Styles1120.css" />
     <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css" />
   </head>
   <body>
-    <aside class="aside">
+    <aside id="aside">
       <section class="aside__header">
+        <button id="aside__burger">
+          <img src="SVG/aside/burger.svg" alt="" />
+        </button>
         <img class="aside__img" src="SVG/aside/Group.svg" alt="" />
         <button class="aside__search" href="#">
           <img src="SVG/aside/search.svg" />
@@ -49,10 +52,10 @@
         </div>
       </section>
     </aside>
-    <main>
+    <main id="main">
       <header class="header">
         <nav class="header__menu">
-          <button class="header__btn">
+          <button id="header__btn">
             <span></span>
             <span></span>
             <span></span>
@@ -70,10 +73,10 @@
             <img src="SVG/HeaderSVG/profile.svg" />
           </button>
           <img src="SVG/HeaderSVG/divider.svg" />
-          <button class="header__btn">
+          <button id="header__btn">
             <img src="SVG/HeaderSVG/repair.svg" />
           </button>
-          <button class="header__btn">
+          <button id="header__btn">
             <img src="SVG/HeaderSVG/checkstatus.svg" />
           </button>
         </nav>
@@ -132,4 +135,6 @@
       </div>
     </main>
   </body>
+
+  <script src="/js.js"></script>
 </html>
