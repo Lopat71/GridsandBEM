@@ -139,24 +139,7 @@
     border: none;
     border-radius: 50%;
   }
-  #header__btn span {
-    position: absolute;
-    width: 18px;
-    height: 2px;
-    background-color: #ffffff;
-    left: 11px;
-    border-radius: 2px;
-  }
-  #header__btn span:nth-child(1) {
-    transform: translateY(-6px);
-  }
-  #header__btn span:nth-child(2) {
-    width: 10px;
-  }
-  #header__btn span:nth-child(3) {
-    transform: translateY(6px);
-    width: 14px;
-  }
+
   .header__img {
     margin-right: 250.73px;
   }
