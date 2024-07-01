@@ -56,7 +56,7 @@
     border: none;
   }
   .aside__btn:hover::before {
-    content: url("/SVG/aside/highlight\ \(1\).svg");
+    content: url("/SVG/aside/highlight1.svg");
     position: absolute;
     left: 0;
   }
