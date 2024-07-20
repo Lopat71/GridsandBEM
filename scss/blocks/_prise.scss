@@ -1,0 +1,96 @@
+.prise {
+  margin-top: 32px;
+  &__header {
+    @extend %TTLakesmin;
+    color: $greytext;
+    border-top: solid #d9fff5;
+    background-color: $white;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+  }
+  &__title {
+    display: flex;
+    gap: 246px;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $greytext;
+    padding-top: 31px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+  }
+
+  &__costtime {
+    display: flex;
+    gap: 61px;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $greytext;
+  }
+  &__container {
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: $white;
+    border-radius: 5px;
+  }
+  &__block {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &::after {
+      position: absolute;
+      content: url(../SVG/prise/Rectangle.svg);
+      margin-top: 68px;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+
+  &__name {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: $black;
+    width: 330px;
+  }
+  &__cost {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: $black;
+  }
+  &__time {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: $black;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $red;
+    border-radius: 16px;
+    border: none;
+    width: 119px;
+    height: 32px;
+    font-family: "TT Lakes";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: $white;
+  }
+}
