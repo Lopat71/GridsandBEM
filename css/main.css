@@ -687,6 +687,11 @@ body {
     flex-direction: column;
   }
 }
+@media (min-width: 1120px) {
+  .technique {
+    margin-top: 50px;
+  }
+}
 .technique__header {
   font-family: "TT Lakes";
   font-size: 16px;
@@ -698,6 +703,11 @@ body {
   padding-left: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+@media (min-width: 1120px) {
+  .technique__header {
+    padding-left: 32px;
+  }
 }
 .technique__menu {
   display: grid;
@@ -845,7 +855,20 @@ body {
 }
 
 .prise {
+  display: none;
   margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .prise {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1120px) {
+  .prise {
+    margin-top: 50px;
+  }
 }
 .prise__header {
   color: rgb(126, 126, 130);
@@ -854,6 +877,11 @@ body {
   padding-top: 16px;
   padding-left: 24px;
   padding-bottom: 16px;
+}
+@media (min-width: 1120px) {
+  .prise__header {
+    padding-left: 32px;
+  }
 }
 .prise__title {
   display: flex;
@@ -865,6 +893,11 @@ body {
   padding-top: 31px;
   padding-bottom: 16px;
   padding-left: 40px;
+}
+@media (min-width: 1120px) {
+  .prise__title {
+    padding-left: 56px;
+  }
 }
 .prise__costtime {
   display: flex;
@@ -880,6 +913,12 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
+@media (min-width: 1120px) {
+  .prise__container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
 .prise__block {
   padding-left: 16px;
   padding-right: 16px;
@@ -889,13 +928,13 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.prise__block::after {
-  position: absolute;
-  content: url(../SVG/prise/Rectangle.svg);
-  margin-top: 68px;
-}
-.prise__block:last-child::after {
-  display: none;
+@media (min-width: 1120px) {
+  .prise__block {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
 }
 .prise__name {
   font-family: "TT Lakes";

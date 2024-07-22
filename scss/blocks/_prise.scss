@@ -1,5 +1,14 @@
 .prise {
+  display: none;
   margin-top: 32px;
+  @media (min-width: 768px) {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 1120px) {
+    margin-top: 50px;
+  }
   &__header {
     @extend %TTLakesmin;
     color: $greytext;
@@ -8,6 +17,9 @@
     padding-top: 16px;
     padding-left: 24px;
     padding-bottom: 16px;
+    @media (min-width: 1120px) {
+      padding-left: 32px;
+    }
   }
   &__title {
     display: flex;
@@ -19,6 +31,9 @@
     padding-top: 31px;
     padding-bottom: 16px;
     padding-left: 40px;
+    @media (min-width: 1120px) {
+      padding-left: 56px;
+    }
   }
 
   &__costtime {
@@ -34,6 +49,10 @@
     margin-right: 24px;
     background-color: $white;
     border-radius: 5px;
+    @media (min-width: 1120px) {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
   }
   &__block {
     padding-left: 16px;
@@ -44,14 +63,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &::after {
-      position: absolute;
-      content: url(../SVG/prise/Rectangle.svg);
-      margin-top: 68px;
-    }
+    // &::after {
+    //   position: absolute;
+    //   content: url(../SVG/prise/Rectangle.svg);
 
-    &:last-child::after {
-      display: none;
+    //   margin-top: 68px;
+    // }
+
+    // &:last-child::after {
+    //   display: none;
+    // }
+    @media (min-width: 1120px) {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      //   &::after {
+      //     position: absolute;
+      //     content: url(../SVG/prise/Rectangle1120.svg);
+
+      //     margin-top: 68px;
+      //   }
+
+      //   &:last-child::after {
+      //     display: none;
+      //   }
     }
   }
 
