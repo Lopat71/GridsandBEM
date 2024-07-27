@@ -1248,7 +1248,6 @@ body {
   color: rgb(255, 62, 121);
 }
 .feedback__btn {
-  margin-left: 152px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1263,6 +1262,12 @@ body {
   line-height: 24px;
   letter-spacing: -0.15px;
   color: rgb(255, 255, 255);
+  margin-left: 165px;
+}
+@media (min-width: 768px) {
+  .feedback__btn {
+    margin-left: 272px;
+  }
 }
 
 .call {
@@ -1275,7 +1280,6 @@ body {
   background-color: white;
   top: 0;
   transition: right 0.3s ease;
-  min-height: 100vh;
 }
 @media (min-width: 768px) {
   .call {
