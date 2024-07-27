@@ -3,8 +3,19 @@ html {
 }
 body {
   background-color: $white;
+
   @media (min-width: 1120px) {
     display: flex;
+  }
+}
+.body-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  @media (min-width: 1120px) {
+    display: flex;
+
+    width: 100%;
   }
 }
 %redbuttom {
@@ -30,7 +41,7 @@ body {
   z-index: 10;
 }
 
-#main {
+.main {
   background-color: $greybody;
 }
 .swiper {

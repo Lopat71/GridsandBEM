@@ -21,12 +21,22 @@
   &__btn_hidden {
     display: none;
   }
+
   &__img {
     @media (min-width: 768px) {
       margin-right: 250.73px;
     }
   }
   &__btn_hidden {
+    @media (min-width: 768px) {
+      display: flex;
+
+      border: none;
+      border-radius: 50%;
+    }
+  }
+  &__btn_hiddens {
+    display: none;
     @media (min-width: 768px) {
       display: flex;
 
